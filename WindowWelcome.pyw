@@ -8,7 +8,7 @@ class MyWindow(Tk):
         sw = self.winfo_screenwidth()
         sh = self.winfo_screenheight()
 
-        self.w, self.h = sw // 2, sh // 3
+        self.w, self.h = sw // 2, sh // 6
         x, y = (sw - self.w) // 2, (sh - self.h) // 2
 
         self.geometry(f'{self.w}x{self.h}+{x}+{y}')
