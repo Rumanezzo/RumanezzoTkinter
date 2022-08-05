@@ -27,6 +27,7 @@ class Example(Frame):
 
 def main():
     root = Tk()
+    root.iconbitmap('icon.ico')
     Example(root)
     root.mainloop()
 
