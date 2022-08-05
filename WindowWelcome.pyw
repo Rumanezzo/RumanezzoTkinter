@@ -3,15 +3,15 @@ from tkinter import Label, Button, Tk, Entry
 
 class MyWindow(Tk):
     def __init__(self):
-        Tk.__init__(self)
+        super().__init__()
 
         sw = self.winfo_screenwidth()
         sh = self.winfo_screenheight()
 
-        w, h = sw // 2, sh // 6
-        x, y = (sw - w) // 2, (sh - h) // 2
+        self.w, self.h = sw // 2, sh // 3
+        x, y = (sw - self.w) // 2, (sh - self.h) // 2
 
-        self.geometry(f'{w}x{h}+{x}+{y}')
+        self.geometry(f'{self.w}x{self.h}+{x}+{y}')
 
         self.config(bg='DarkGrey')
         self.iconbitmap('icon.ico')

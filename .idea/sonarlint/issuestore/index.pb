@@ -15,3 +15,7 @@ C
 MatplotTkinter0.pyw,0\a\0a0a163321f0cab37ad826063c06ea628fb92672
 ?
 MeierExample.py,e\e\eea89c11cc44daba2d3ee67247c6f59060989c08
+>
+2021-2022.xlsx,3\d\3d739ed4726f90d3dc882aa4d2d0c9850a685ded
+9
+	Start.pyw,9\c\9c60761c7b30177bb8c14da3182f45428b86c578
