@@ -123,7 +123,7 @@ class Child(tk.Toplevel):
     def init_child(self):
         self.title('Добавить доходы или расходы')
         self.geometry('400x220+400+300')
-        self.iconbitmap("configuration.ico")
+        self.iconbitmap("config.ico")
         self.resizable(False, False)
 
         label_description = tk.Label(self, text='Транзакция:')
@@ -236,7 +236,7 @@ if __name__ == "__main__":
     app = Main(root)
     app.pack()
     root.title("Учитываем приходы и расходы в семье")
-    root.iconbitmap("configuration.ico")
+    root.iconbitmap("config.ico")
     root.geometry("665x450+300+200")
     root.resizable(False, False)
     root.mainloop()
