@@ -6,7 +6,7 @@ class App(Tk):
         super().__init__()
 
         self.title("Текстовые элементы Canvas")
-        self.iconbitmap('icon.ico')
+        self.iconbitmap('Python.ico')
 
         sw = self.winfo_screenwidth()
         sh = self.winfo_screenheight()
@@ -25,7 +25,7 @@ class App(Tk):
         self.update()
 
         w, h = self.canvas.winfo_width(), self.canvas.winfo_height()
-        options = {"font": "Neucha 26", "fill": "blue",
+        options = {"font": "Neucha 36", "fill": "blue",
                    "activefill": "red"}
         self.text_id = self.canvas.create_text((w / 2, h / 2), **options)
         self.var.trace("w", self.write_text)
