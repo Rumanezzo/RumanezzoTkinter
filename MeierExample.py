@@ -1,9 +1,5 @@
 import tkinter as tk
-from tkinter import ttk
-from tkinter import scrolledtext
-from tkinter import Menu
-from tkinter import messagebox as msg
-from tkinter import Spinbox
+from tkinter import ttk, scrolledtext, Menu, messagebox as msg, Spinbox
 
 win = tk.Tk()
 win.title('Графический Интерфейс на Python')
@@ -125,7 +121,7 @@ help_menu = Menu(menu_bar, tearoff=0)
 help_menu.add_command(label='О программе', command=_msg_box)
 menu_bar.add_cascade(label='Помощь', menu=help_menu)
 
-win.iconbitmap('pyc.ico')
+win.iconbitmap('Python.ico')
 
 name_entered.focus()
 win.resizable(False, False)

@@ -1,23 +1,21 @@
 import tkinter as tk
 
-# create the main window
 root = tk.Tk()
 
-# disable the window bar
+# убираем меню окна
 root.overrideredirect(True)
 
-# set transparency and make the window stay on top
+# устанавливаем прозрачность окна и его расположение поверх других окон
 root.attributes('-transparentcolor', 'white', '-topmost', True)
 
-# set the background image
-psg = tk.PhotoImage(file='victory2.png')
+# Устанавливаем заставку (background)
+psg = tk.PhotoImage(file='splash.png')
 tk.Label(root, bg='white', image=psg).pack()
 
-# move the window to center
+# Перемещаем окно в центр экрана
 root.eval('tk::PlaceWindow . Center')
 
-# schedule the window to close after 4 seconds
+# Задаем уничтожение окна через 6 сек
 root.after(6000, root.destroy)
 
-# run the main loop
 root.mainloop()
