@@ -14,7 +14,7 @@ class MainFrame(tk.Tk):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-        self.iconbitmap(default="icon.ico")
+        self.iconbitmap(default="Python.ico")
 
         self.wm_title("Внедряем Matplotlib в Tkinter!")
 

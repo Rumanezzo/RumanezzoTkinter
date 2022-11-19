@@ -10,7 +10,7 @@ import numpy as np
 from sys import exit
 
 root = tk.Tk()
-tk.Tk.iconbitmap(root, default="icon.ico")
+tk.Tk.iconbitmap(root, default="Python.ico")
 root.wm_title("Встраиваем Matplotlib в Tkinter")
 
 large_font = ("FreeMono", 33, 'bold')

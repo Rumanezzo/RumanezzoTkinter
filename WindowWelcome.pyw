@@ -14,7 +14,7 @@ class MyWindow(Tk):
         self.geometry(f'{self.w}x{self.h}+{x}+{y}')
 
         self.config(bg='DarkGrey')
-        self.iconbitmap('icon.ico')
+        self.iconbitmap('Python.ico')
         self.title('Диалог ввода имени и выход по нажатию кнопки!')
 
         self.text1 = Label(self, text='Вопрошаю об имени твоём!!!', fg='yellow', bg='DarkGray')
