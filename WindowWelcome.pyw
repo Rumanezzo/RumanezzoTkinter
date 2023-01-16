@@ -17,11 +17,11 @@ class MyWindow(Tk):
         self.iconbitmap('Python.ico')
         self.title('Диалог ввода имени и выход по нажатию кнопки!')
 
-        self.text1 = Label(self, text='Вопрошаю об имени твоём!!!', fg='yellow', bg='DarkGray')
+        self.text1 = Label(self, text='Программа, запрашивающая у пользователя его имя...', fg='yellow', bg='DarkGray')
         self.text1.config(font=('FreeMono', 16, 'bold'))
         self.text1.pack()
 
-        self.text2 = Label(self, text='Вводи свое имя в зеленое поле!', fg='DarkBlue', bg='DarkGray')
+        self.text2 = Label(self, text='Вводи свое имя в зеленое поле! Быстро!!!', fg='DarkBlue', bg='DarkGray')
         self.text2.config(font=('FreeMono', 20, 'bold'))
         self.text2.pack()
 
@@ -35,7 +35,7 @@ class MyWindow(Tk):
 
     def change(self):
         txt = 'Привет - ' + self.ed.get() + '!'
-        self.text1.config(text='Ты внял(а) моим мольбам!')
+        self.text1.config(text='Бестолковая Тварь *' + self.ed.get() + '* откликнулась...')
         self.text2.config(text=txt, font=('FreeMono', 20, 'bold'))
         self.button1.destroy()
         self.ed.destroy()
