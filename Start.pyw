@@ -16,7 +16,7 @@ class Example(Frame):
         sh = self.parent.winfo_screenheight()
 
         w, h = 2 * sw // 3, 2 * sh // 3
-        x, y = (sw - w) // 2, (sh - h) // 2
+        x, y = (sw - w) // 2, int(((sh - h) / 2) * 0.75)
 
         self.parent.geometry(f'{w}x{h}+{x}+{y}')
         self.parent.title(f'Окно размером: {w}x{h} по координатам: x={x}, y={y} выведено в центре экрана при '

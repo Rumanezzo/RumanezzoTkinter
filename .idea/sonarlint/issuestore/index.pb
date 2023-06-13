@@ -7,10 +7,6 @@ W
 Accounting.db,0\5\0501f4a67fee97fd1c4ff6b3c124df1001c84094
 w
 G.idea/sonarlint/issuestore/0/a/0ad79a459b62d32f54ea87f85b36e4869b2cc7b3,2\2\22e3a581934cf2eb38db005c4798e42efaff0b68
-=
-Accounting.py,9\d\9db7c8eeb41ae7f38525b8adab65ed90e55fe9a6
-<
-Household.py,3\e\3e28fafb00138f9dd037cb6b996a3e84acfee9d3
 C
 MatplotTkinter1.pyw,9\e\9efb0f8fb5d7cf3911d6230c17c318ccc9426aec
 C
