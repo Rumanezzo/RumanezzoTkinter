@@ -22,3 +22,7 @@ C
 splash.pyw,d\f\dfcfd65d1a63652abd40450576e3479fcacf673d
 =
 Histogram.pyw,a\3\a3583ab71db515a20a509d7ebec2491a6a4d8b16
+w
+G.idea/sonarlint/issuestore/0/5/0501f4a67fee97fd1c4ff6b3c124df1001c84094,7\0\70db4a690f53855114ee4ab46b63ba6a138150e3
+w
+G.idea/sonarlint/issuestore/2/2/22e3a581934cf2eb38db005c4798e42efaff0b68,3\9\393a3426c5cde5b3ffdb02f60927103a3275da08
